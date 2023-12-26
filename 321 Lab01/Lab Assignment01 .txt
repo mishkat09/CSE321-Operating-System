@@ -1,0 +1,75 @@
+﻿1.Create file
+
+
+touch 19201028_1.txt
+touch 19201028_2.txt 
+touch 19201028_3.txt
+touch 19201028_4.txt 
+
+
+
+
+2.Create directory 
+mkdir Mishkat1
+mkdir Mishkat2
+
+
+
+
+3.Move file to the directory
+mv 19201028_1.txt Mishkat1 
+mv 19201028_2.txt Mishkat2 
+mv 19201028_3.txt Mishkat3
+
+
+4.copy file to directory 
+cp 19201028_1 /home/Mishkat2
+cp 19201028_2 /home/Mishkat2
+
+
+5.change directory 
+cd home/Mishkat
+mkdir Mishkat3 
+cp -R Mishkat1 Mishkat3
+cd Mishkat3
+
+
+
+
+
+
+6.remove 
+chmod -w Mishkat1
+
+
+7.read and execute
+chmod +rx Mishkat1
+
+
+8.folder backspace
+cd ..
+
+
+9.showing list
+ls  
+
+
+10.move file from root
+sudo mv -f Mishkat3 root 
+cd /home/Mishkat
+
+
+11.delete folder 
+rm -r Mishkat1 Mishkat2
+
+
+12.counting line 
+grep ‘CSE’ course.txt
+
+
+13.showing hidden files 
+ls -a
+
+
+14.show 5-17 lines 
+sed -n 5,17p filelines.txt
